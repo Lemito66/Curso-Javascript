@@ -1,5 +1,3 @@
-
-
 console.log('Hola Juan');
 
  var farenheit=90;

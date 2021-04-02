@@ -1,11 +1,14 @@
+let nombre='Emill';
+let apellido='Logroño';
 
+let nombeCompleto=nombre +" "+ apellido;
+console.log(nombeCompleto)
 
-console.log('Hola Juan');
+let a=10;
+let b=20;
+console.log(a+b);
 
- var farenheit=90;
- let celcious=43;
-//Formula C=(F-32)*(5/9)
-var respuesta= (farenheit-32)*(5/9)
-var farenheitRespuesta=(celcious*(9/5))+32
-console.log("90 grados Farenheit a centigrados es: "+respuesta )
-console.log("43 grados Centigrados a Farenheit es: "+farenheitRespuesta) 
+let activo=true;
+let despedido=false;
+
+console.log(activo+despedido);
