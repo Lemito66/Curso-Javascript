@@ -22,3 +22,5 @@ let personEmill={
 }
 miNombre(personEmill);
 
+var input = document.getElementById('username');
+input.oninvalid = function(event) { event.target.setCustomValidity('Nombre del usuario solo debe contener letras'); } 
